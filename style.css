@@ -1,0 +1,22 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100%;
+}
+
+.grid a img {
+  width: 100%;
+}
+.avatar {
+  height: 4rem;
+  border-radius: 100%;
+}
